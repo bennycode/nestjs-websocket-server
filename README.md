@@ -1,19 +1,6 @@
-# ts-node-starter
+# WebSocket Nest Example
 
-TEXT
+## Resources
 
-## Features
-
-- TEXT
-
-## Installation
-
-```bash
-TEXT
-```
-
-## Usage
-
-```ts
-// TEXT
-```
+- [WebSocket Authentication](https://www.youtube.com/watch?v=6xeeLKlVSAc)
+- [Sequelize](https://docs.nestjs.com/techniques/database#sequelize-integration)

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebSocket Client</title>
+  </head>
+  <body>
+    <script>
+      const socketURL = `ws://localhost:8032`;
+      const socket = new WebSocket(socketURL);
+
+      socket.onopen = () => {
+        console.log(`Connected to WebSocket`);
+
+        socket.onmessage = event => {
+          console.log('Message from server', event);
+        };
+
+        socket.send(
+          JSON.stringify({
+            event: 'msgToServer',
+            name: 'Benny',
+          })
+        );
+      };
+    </script>
+  </body>
+</html>
