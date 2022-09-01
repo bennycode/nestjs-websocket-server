@@ -872,10 +872,10 @@
     tslib "2.4.0"
     ws "8.8.1"
 
-"@nestjs/websockets@9.0.7":
-  version "9.0.7"
-  resolved "https://registry.npmjs.org/@nestjs/websockets/-/websockets-9.0.7.tgz#702f69147efaa3677e97894bed9c24bd3e01681e"
-  integrity sha512-kRaKvtv5RXr/1f7L1FQuaX/fpoJq0qu4FIPeKW/e1GAXY4SYmyWgDMyaZRkm2KdCZgQ9D0qMDKFuVfx27JDj2A==
+"@nestjs/websockets@9.0.11":
+  version "9.0.11"
+  resolved "https://registry.npmjs.org/@nestjs/websockets/-/websockets-9.0.11.tgz#b2ee7eb173aa63e64d8265c1a08f3b528c80b245"
+  integrity sha512-hrUfmiCajNsXS5i2g3siqxETv5whIpzY6BOW8CGSPn6Hm899aRm7BagCeNBAcpI77fHMchBQLTCuVO7h3oexsA==
   dependencies:
     iterare "1.2.1"
     object-hash "3.0.0"
